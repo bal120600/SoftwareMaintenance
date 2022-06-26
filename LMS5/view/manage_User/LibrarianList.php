@@ -173,7 +173,9 @@
 						<td style="background-color:#00aea6; color: white"><b>Name</b></td>
 						<td style="background-color:#00aea6; color: white"><b>Phone Number</b></td>
 						<td style="background-color:#00aea6; color: white"><b>Email</b></td>
-						<td colspan="1" style="background-color:#00aea6; color: white"><b>ACTIONS</b></td>
+						<td colspan="1" style="background-color:#00aea6; color: white"><b>UPDATE</b></td>
+						<td colspan="1" style="background-color:#00aea6; color: white"><b>DELETE</b></td>
+						<td colspan="1" style="background-color:#00aea6; color: white"><b>VIEW DETAILS</b></td>
 					  </tr>
 					  
 					  <?php
@@ -189,8 +191,8 @@
 							<td><?php echo $name ?></td>
 							<td><?php echo $phoneNum ?></td>
 							<td><?php echo $Email ?></td>
-							<td><a id="greenlinks" href="UpdateLibrarian.php?GetLibrarian=<?php echo $librarian_ID ?>">Update</a></td>
-                            <td><a id="redlinks" onclick="DeleteLibrarian()" href="DeleteLibrarianController.php?DeleteLibrarian=<?php echo $Librarian_ID ?>">Delete</a></td>
+							<td><a id="greenlinks" href="UpdateLibrarian.php?GetLibrarian=<?php echo $librarianID ?>">Update</a></td>
+                            <td><a id="redlinks" onclick="DeleteLibrarian()" href="DeleteLibrarianController.php?DeleteLibrarian=<?php echo $librarianID ?>">Delete</a></td>
 							<td><a id="greenlinks" href="LibrarianListDetails.php?GetLibrarian=<?php echo $librarianID ?>">View Details</a></td>
 						</tr>
 					  <?php
