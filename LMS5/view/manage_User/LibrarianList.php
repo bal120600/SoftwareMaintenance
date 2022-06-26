@@ -107,6 +107,23 @@
 	  color: black;
 	}
 
+	#redlinks:link, #redlinks:visited 
+	{
+	  background-color: #eb2d53;
+	  color: white;
+	  padding: 6px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  border-radius: 4px;
+	}
+
+	#redlinks:hover, #redlinks:active 
+	{
+	  background-color: #ffd600;
+	  color: black;
+	}
+
 </style>
 </head>
 
